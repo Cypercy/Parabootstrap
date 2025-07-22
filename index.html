@@ -1,11 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EjemploBootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
 </head>
 <body>
-    
+    <a href="paginas/contenedores.html">Ejemplos de contenedores</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis consequuntur expedita accusantium, cum cumque temporibus nesciunt, voluptatum cupiditate aut blanditiis sint, voluptate minima. Facere.</p>
+            </div>
+            <div class="col">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, porro in impedit quidem tempora dolorem quis quae veniam nulla amet quo fuga saepe officia, sunt sequi eveniet sit nisi illum laborum quas consectetur a? Accusamus.</p>
+            </div>
+                
+
+        </div>
+
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo numquam excepturi dolore totam rerum animi praesentium aspernatur vero quibusdam deserunt, ratione nemo nam atque dignissimos!
+                </p>
+            <div class="col-4"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-7">
+                
+                <p class="display-1">Display 1</p>
+                <p class="display-2">Display 2</p>
+                <p class="display-3">Display 3</p>
+                <p class="display-4">Display 4</p>
+                <p class="display-5">Display 5</p>
+
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <h5>Lorem ipsum dolor sit amet.</h5>
+                <h6>Lorem ipsum dolor sit amet.</h6>
+
+                <p class="lead">Este es un párrafo con lead</p>
+
+                <small>Small.Letra más peque</small>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="display-3">
+                        Alineación
+                    </div>
+                    <p class="lead">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-start lead">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-center lead">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-end lead">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+            <div class="raw">
+                <div class="col">
+                    <div class="display-3">
+                        Decorado
+                    </div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="text-decoration-underline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="text-decoration-line-through">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="fw-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <a href="#" class="text-decoration-none">Este es un enlace subrayado</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="display-3">Colores de texto y fondo</div>
+                    <p class="text-primary">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-success">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-danger">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-warning">Lorem ipsum dolor sit amet.</p>
+                    <p class="text-purple">Color púrpura</p>
+                    <p class="bg-primary text-white display-4 fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="row bg-primary">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <p class="fw fw-bold display-1 text-white text-center">PlayStation</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p class="display-3">Botones</p>
+                    <h2>Básico</h2>
+                    <button type="button">Botón Tradicional</button>
+                    <button type="button" class="btn btn-primary">Botón Primario</button>
+                    <button type="button" class="btn btn-secondary">Botón Secundario</button>
+                    <button type="button" class="btn btn-danger">Botón de Peligro</button>
+                    <h2>Botones de Ancla</h2>
+                    <a href="https://www.google.com" class="btn btn-warning text-white">Ir a Google</a>
+
+                    <!--Tipos de botones-->
+                    <h2>Tamaños</h2>
+                    <button type="button" class="btn btn-danger btn-lg">Botón Grande</button>
+                    <button type="button" class="btn btn-warning">Botón Normal</button>
+                    <button type="button" class="btn btn-success btn-sm">Botón Pequeño</button>
+                    <button type="button" class="btn btn-outline-primary">Botón con contorno</button><br><br>
+                    <button type="button" class="btn btn-outline-danger btn-lg">Botón con contorno</button>
+                    <br>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-warning">Botón Normal</button>
+                        <button type="button" class="btn btn-warning">Botón Normal</button>
+                        <button type="button" class="btn btn-warning">Botón Normal</button>
+                    </div>
+
+                    <h2>Margin y Pading</h2>
+                    <div class="bg-primary m-1"><!--Margen del 1 al 5-->
+                        Margen pequeño 1
+                    </div>
+                    <div class="bg-primary m-2">
+                        Margen pequeño 2
+                    </div>
+                    <div class="bg-primary m-3">
+                        Margen pequeño 3
+                    </div>
+                    <div class="bg-primary m-4">
+                        Margen pequeño 4
+                    </div>
+                    <div class="bg-primary m-5">
+                        Margen pequeño 5
+                    </div>
+
+                    <div class="bg-primary m-1 p-1"><!--Pading del 1 al 5-->
+                        Margen pequeño 1
+                    </div>
+                    <div class="bg-primary m-2 p-2">
+                        Margen pequeño 2
+                    </div>
+                    <div class="bg-primary m-3 p-3">
+                        Margen pequeño 3
+                    </div>
+                    <div class="bg-primary m-4 p-4">
+                        Margen pequeño 4
+                    </div>
+                    <div class="bg-primary m-5 p-5">
+                        Margen pequeño 5
+                    </div>
+
+                    <div class="bg-primary mx-5 my-1">Margin x:5 / y:1</div>
+
+                    <h2>Bordes</h2>
+                    <div class="border m-3 p-3"> Border</div>
+                    <div class="border-top border-bottom m-4 border-3 border-danger"> Border</div>
+                    <div class="border-end border-bottom m-4 border-4"> Border</div>
+                    <div class="border-top border-start m-4 border-5"> Border</div>
+
+                    <div class="m-3 p-3 rounded border border-5">Bordessss</div>
+                    <div class="m-3 p-3 rounded-pill border-5 border border-succes">Bord</div>
+
+                    <div class="row bg-danger">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <p class="fw fw-bold display-1 text-white text-center m-3 p-2 rounded-pill border-5 border border-succes">Nintendo</p>
+                </div>
+            </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <h2>Box Shadown</h2>
+    <div class="m-3 p-3 shadow-sm">Sombra pequeña</div>
+    <div class="m-3 p-3 shadow">Sombra normal</div>
+    <div class="m-3 p-3 shadow-lg">Sombra grande</div>
+
+    <h2>Font weight</h2>
+    <p>Texto Normal</p>
+    <p class="fw-bold">Texto en negrita</p>
+    <p class="fw-bolder">Texto en negrita más fuerte</p>
+    <p class="fw-light">Texto ligero</p>
+    <p class="fw-lighter">Texto ligero</p>
+    <p class="fst-italic">Texto italic o cursiva</p>
+    <p class="fst-italic fw-bold">Texto italic en negrita</p>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
